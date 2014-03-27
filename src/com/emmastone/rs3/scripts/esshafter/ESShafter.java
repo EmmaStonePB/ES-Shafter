@@ -23,21 +23,7 @@ public class ESShafter extends PollingScript implements PaintListener,
 	@Override
 	public void messaged(MessageEvent e) {
 		if (e.getMessage().contains("You carefully cut the wood")){
-	    shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
-		shafts++;
+	    shafts += 15;
 		}
 	}
 
