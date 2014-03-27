@@ -86,7 +86,7 @@ public class ESShafter extends PollingScript implements PaintListener,
 		g.fillRect(6, 6, 149, 80);
 		g.setColor(Color.BLACK);
 		g.setFont(new Font("PLAIN", 1, 12));
-		g.drawString("ESMiner V1", 46, 23);
+		g.drawString("ESShafter V1", 46, 23);
 		g.setFont(new Font("PLAIN", 1, 9));
 		g.drawString("Shafts Created:", 15, 50);
 		g.drawString(" " + shafts, 100, 50);
